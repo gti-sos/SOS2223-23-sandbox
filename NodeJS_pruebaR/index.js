@@ -8,5 +8,9 @@ En 2009 nació el proyecto Chromium, que creo entre otras cosas un motor nuevo d
 V8, que elevo Javascript a otro nivel. Posteriormente se creo NodeJS.
 
 Defectos: Javascript Un gran poder conlleva una gran responsabilidad. Depurar un mal código en 
-Javascript es un infierno, hay que ser ordenado y responsable con lo que se escribe.*/
+Javascript es un infierno, hay que ser ordenado y responsable con lo que se escribe.
+
+La guia de referencia que le gusta es MDN JavaScript*/
+
+console.log('hola');
 

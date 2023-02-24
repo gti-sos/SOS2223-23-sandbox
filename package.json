@@ -4,6 +4,7 @@
   "description": "hello",
   "main": "indexA.js",
   "scripts": {
+    "start": "node indexA",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gti-sos/SOS2223-23-sandbox/issues"
   },
-  "homepage": "https://github.com/gti-sos/SOS2223-23-sandbox#readme"
+  "homepage": "https://github.com/gti-sos/SOS2223-23-sandbox#readme",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "sos2223-23-sandbox",
+  "version": "0.0.0",
+  "description": "hello",
+  "main": "indexP.js",
+  "scripts": {
+    "start": "node ProbarCosasJSpablo/F03.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gti-sos/SOS2223-23-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gti-sos/SOS2223-23-sandbox/issues"
+  },
+  "homepage": "https://github.com/gti-sos/SOS2223-23-sandbox#readme",
+  "dependencies": {
+    "csvdata": "^2.0.0"
+  }
+}

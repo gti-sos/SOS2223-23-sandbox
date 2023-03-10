@@ -50,6 +50,7 @@ log(i);
 
 /* ------------ CLASE VIERNES 24 FEB ------------- */
 
+/*
 var express = require("express");
 var cool = require("cool-ascii-faces");
 const { request, response } = require("express");
@@ -58,12 +59,12 @@ var app = express();
 var port = process.env.PORT || 12345;
 app.use(bodyParser.json());
 
-/*
+
 app.get("/faces", (request,response) => {
     response.send(cool());
     console.log("New request");
 });
-*/
+
 
 var contacts = [
     {
@@ -95,5 +96,34 @@ app.post(BASE_API_URL+"/contacts", (request,response) => {
 app.listen(port,()=>{
     console.log(`Server ready in port ${port}`);
 });
+*/
 
 
+/* ------------ CLASE VIERNES 10 MARZO ------------- */
+
+var express = require("express");
+var cool = require("cool-ascii-faces");
+const { request, response } = require("express");
+var bodyParser = require("body-parser");
+var backend = require("./backend");
+
+var app = express();
+var port = process.env.PORT || 12345;
+
+app.use("/", express.static("./public"));
+
+app.use(bodyParser.json());
+
+backend(app);
+
+app.get("/faces", (request,response) => {
+    response.send(cool());
+    console.log("New request");
+});
+
+
+app.listen(port,()=>{
+    console.log(`Server ready in port ${port}`);
+});
+
+/* Ver video L07*/ 

@@ -1,0 +1,25 @@
+{
+  "name": "sos2223-00-sandbox",
+  "version": "0.0.0",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gti-sos/SOS2223-00-sandbox.git"
+  },
+  "author": "pafmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gti-sos/SOS2223-00-sandbox/issues"
+  },
+  "homepage": "https://github.com/gti-sos/SOS2223-00-sandbox#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.18.2"
+  }
+}

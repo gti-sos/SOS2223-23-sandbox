@@ -127,3 +127,21 @@ app.listen(port,()=>{
 });
 
 /* Ver video L07*/ 
+
+/* ------------ CLASE VIERNES 24 MARZO ------------- */
+
+//Ya no hace falta usar BodyParser porque dentro de express viene incluido en la ultima versión. 
+//Ya no se usa el require, con un import ... from ...; vale.
+//import {loadBackend} from "./backend/... .js".
+
+//Una vez que instalamos el adaptador para svelte (npm install -D @sveltejs/adaptar-node), 
+//configuramos el archivo svelte.config.js para 
+
+//Añadimos en index.js un import {handler} from "./frontend/build/handler.js";
+
+//En svelte podemos no solo tener html, si no que podemos tener tres partes: script(script), html(main) y estilo(style).
+
+//En un fichero layout.svelte, podemos poner un <slot> para que coja todo el contenido de cada una de las demás páginas, 
+//mientras que lo que apareza fuera del slot, aparecerá en todas las páginas por igual (como pueden serlo una cabecera o pie de página).
+
+//Los componentes .svelte (por ej. Footer.svelte), suelen ir en mayúscula.
